@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string></string>
+	<key>contactName</key>
+	<string>Jannes Jeising</string>
+	<key>description</key>
+	<string>Support for Facebooks &lt;a href="http://facebook.github.io/react/"&gt;React JavaScript library&lt;/a&gt;.</string>
+	<key>name</key>
+	<string>JavaScript React</string>
+	<key>uuid</key>
+	<string>B1CEC33C-E966-4674-B1AA-991DFAEE57F6</string>
+</dict>
+</plist>
