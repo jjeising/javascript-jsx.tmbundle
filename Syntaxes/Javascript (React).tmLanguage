@@ -405,7 +405,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>meta.source.js.react</string>
+	<string>source.js.react</string>
 	<key>uuid</key>
 	<string>5BF72E3C-8DC1-4B55-B232-CC821203C88D</string>
 </dict>
