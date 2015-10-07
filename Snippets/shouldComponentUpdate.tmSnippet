@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>shouldComponentUpdate: function (nextProps, nextState) {
+  ${1|//upcoming props/state is present
+  //for all your examination needs
+  //
+  //example:
+  //  var veracity = nextProps.what === this.props.what;
+  //|}
+  return ${2|true,false|};
+}</string>
+	<key>name</key>
+	<string>shouldComponentUpdate</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>scu</string>
+	<key>uuid</key>
+	<string>878AAE5E-655C-4F37-86FB-0F185A99F044</string>
+</dict>
+</plist>

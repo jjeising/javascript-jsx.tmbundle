@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>componentDidUpdate: function (prevProps, prevState) {
+  ${1|//put post-proc stuff here
+  //like manip the DOM or whatevs|}
+}</string>
+	<key>name</key>
+	<string>componentDidUpdate</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>cdu</string>
+	<key>uuid</key>
+	<string>EFC062C3-33FF-4EA2-8877-EF1B118CA667</string>
+</dict>
+</plist>

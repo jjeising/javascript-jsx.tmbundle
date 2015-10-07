@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>//wanna sneak in some state
+//before component mounts?
+componentWillMount: function () {
+  this.setState(${1}: ${2});
+}</string>
+	<key>name</key>
+	<string>componentWillMount</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>cwm</string>
+	<key>uuid</key>
+	<string>7DFE99C7-0F55-49C0-8A74-AA15C66C6FAC</string>
+</dict>
+</plist>

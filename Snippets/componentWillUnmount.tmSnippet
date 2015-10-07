@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>componentWillUnmount: function () {
+  ${1|//Perform any necessary cleanup in this method
+  //such as invalidating "timers" or cleaning up
+  //DOM elements created in `componentDidMount`|}
+}</string>
+	<key>name</key>
+	<string>componentWillUnmount</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>cwum</string>
+	<key>uuid</key>
+	<string>70735446-B840-4AF7-8D40-2BE7F0B10806</string>
+</dict>
+</plist>
