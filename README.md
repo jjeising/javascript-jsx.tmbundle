@@ -19,13 +19,13 @@ Installation
 Clone the bundle to `Library/Application Support/Avian/Pristine Copy/Bundles/`:
 
 ```
-git clone https://github.com/jjeising/javascript-react.tmbundle.git
+git clone https://github.com/jjeising/javascript-react.tmbundle.git ~/Library/Application\ Support/Avian/Pristine\ Copy/Bundles/javascript-react.tmbundle
 ```
 
 To use compile on save install the following dependencies
 
 ```
-npm install react-tools jsxhint
+cd ~/Library/Application\ Support/Avian/Pristine\ Copy/Bundles/javascript-react.tmbundle && npm install react-tools jsxhint
 ```
 
 Compile on save
