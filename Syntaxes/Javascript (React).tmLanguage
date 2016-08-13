@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>fileTypes</key>
-	<array>
-		<string>jsx</string>
-	</array>
+	<array/>
+	<key>injectionSelector</key>
+	<string>L:source.js</string>
 	<key>keyEquivalent</key>
 	<string>^~J</string>
 	<key>name</key>
@@ -209,10 +209,6 @@
 			<key>name</key>
 			<string>invalid.illegal.incomplete.html</string>
 		</dict>
-		<dict>
-			<key>include</key>
-			<string>source.js</string>
-		</dict>
 	</array>
 	<key>repository</key>
 	<dict>
@@ -404,8 +400,6 @@
 			<string>string.unquoted.html</string>
 		</dict>
 	</dict>
-	<key>scopeName</key>
-	<string>source.js.react</string>
 	<key>uuid</key>
 	<string>5BF72E3C-8DC1-4B55-B232-CC821203C88D</string>
 </dict>
