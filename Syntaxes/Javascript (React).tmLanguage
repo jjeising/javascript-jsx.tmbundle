@@ -115,10 +115,6 @@
 			</array>
 		</dict>
 		<dict>
-			<key>include</key>
-			<string>#entities</string>
-		</dict>
-		<dict>
 			<key>match</key>
 			<string>&lt;&gt;</string>
 			<key>name</key>
@@ -127,31 +123,6 @@
 	</array>
 	<key>repository</key>
 	<dict>
-		<key>entities</key>
-		<dict>
-			<key>patterns</key>
-			<array>
-				<dict>
-					<key>captures</key>
-					<dict>
-						<key>1</key>
-						<dict>
-							<key>name</key>
-							<string>punctuation.definition.entity.html</string>
-						</dict>
-						<key>3</key>
-						<dict>
-							<key>name</key>
-							<string>punctuation.definition.entity.html</string>
-						</dict>
-					</dict>
-					<key>match</key>
-					<string>(&amp;)([a-zA-Z0-9]+|#[0-9]+|#x[0-9a-fA-F]+)(;)</string>
-					<key>name</key>
-					<string>constant.character.entity.html</string>
-				</dict>
-			</array>
-		</dict>
 		<key>jsx-attribute</key>
 		<dict>
 			<key>begin</key>
@@ -219,84 +190,19 @@
 				</dict>
 			</array>
 		</dict>
-		<key>string-double-quoted</key>
+		<key>jsx-embedded-js</key>
 		<dict>
 			<key>begin</key>
-			<string>"</string>
-			<key>beginCaptures</key>
-			<dict>
-				<key>0</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.string.begin.html</string>
-				</dict>
-			</dict>
+			<string>\{</string>
 			<key>end</key>
-			<string>"</string>
-			<key>endCaptures</key>
-			<dict>
-				<key>0</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.string.end.html</string>
-				</dict>
-			</dict>
-			<key>name</key>
-			<string>string.quoted.double.html</string>
+			<string>\}</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>include</key>
-					<string>#embedded-code</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#entities</string>
+					<string>source.js</string>
 				</dict>
 			</array>
-		</dict>
-		<key>string-single-quoted</key>
-		<dict>
-			<key>begin</key>
-			<string>'</string>
-			<key>beginCaptures</key>
-			<dict>
-				<key>0</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.string.begin.html</string>
-				</dict>
-			</dict>
-			<key>end</key>
-			<string>'</string>
-			<key>endCaptures</key>
-			<dict>
-				<key>0</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.string.end.html</string>
-				</dict>
-			</dict>
-			<key>name</key>
-			<string>string.quoted.single.html</string>
-			<key>patterns</key>
-			<array>
-				<dict>
-					<key>include</key>
-					<string>#embedded-code</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#entities</string>
-				</dict>
-			</array>
-		</dict>
-		<key>tag-generic-attribute</key>
-		<dict>
-			<key>match</key>
-			<string>(?&lt;=[^=])\b([a-zA-Z0-9:-]+)</string>
-			<key>name</key>
-			<string>entity.other.attribute-name.html</string>
 		</dict>
 		<key>tag-stuff</key>
 		<dict>
@@ -304,15 +210,15 @@
 			<array>
 				<dict>
 					<key>include</key>
-					<string>#tag-generic-attribute</string>
+					<string>text.html.basic#tag-generic-attribute</string>
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>#string-double-quoted</string>
+					<string>text.html.basic#string-double-quoted</string>
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>#string-single-quoted</string>
+					<string>text.html.basic#string-single-quoted</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -328,16 +234,9 @@
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>#unquoted-attribute</string>
+					<string>text.html.basic#unquoted-attribute</string>
 				</dict>
 			</array>
-		</dict>
-		<key>unquoted-attribute</key>
-		<dict>
-			<key>match</key>
-			<string>(?&lt;==)(?:[^\s&lt;&gt;/'"]|/(?!&gt;))+</string>
-			<key>name</key>
-			<string>string.unquoted.html</string>
 		</dict>
 	</dict>
 	<key>uuid</key>
