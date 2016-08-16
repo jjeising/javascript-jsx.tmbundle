@@ -1,4 +1,4 @@
-javascript-react.tmbundle
+javascript-jsx.tmbundle
 =========================
 
 Textmate Bundle for JSX (React). Currently supports

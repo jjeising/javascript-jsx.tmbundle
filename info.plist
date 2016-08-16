@@ -7,9 +7,9 @@
 	<key>contactName</key>
 	<string>Jannes Jeising</string>
 	<key>description</key>
-	<string>Support for Facebooks &lt;a href="http://facebook.github.io/react/"&gt;React JavaScript library&lt;/a&gt;.</string>
+	<string>Support for JSX syntax, used by Facebooks &lt;a href="http://facebook.github.io/react/"&gt;React JavaScript library&lt;/a&gt;.</string>
 	<key>name</key>
-	<string>JavaScript React</string>
+	<string>JavaScript JSX</string>
 	<key>uuid</key>
 	<string>B1CEC33C-E966-4674-B1AA-991DFAEE57F6</string>
 </dict>
