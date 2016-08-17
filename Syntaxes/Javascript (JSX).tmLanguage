@@ -6,8 +6,6 @@
 	<array/>
 	<key>injectionSelector</key>
 	<string>L:(source.js - comment.*)</string>
-	<key>keyEquivalent</key>
-	<string>^~J</string>
 	<key>name</key>
 	<string>Javascript (JSX)</string>
 	<key>patterns</key>
