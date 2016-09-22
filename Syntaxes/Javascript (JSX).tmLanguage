@@ -5,7 +5,7 @@
 	<key>fileTypes</key>
 	<array/>
 	<key>injectionSelector</key>
-	<string>L:(source.js - comment.*)</string>
+	<string>L:(source.js - comment.* - string.*)</string>
 	<key>name</key>
 	<string>Javascript (JSX)</string>
 	<key>patterns</key>
