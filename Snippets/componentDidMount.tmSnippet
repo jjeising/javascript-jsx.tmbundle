@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>componentDidMount: function () {
+
+  //Aite. You can feel free to access the DOM node now...
+  React.findDOMNode(this);
+  
+  //or start a timer...
+  var timer = setTimeout(function(){
+  }, 1000);
+  
+  //or designate some actions to recur...
+  setInterval(function(){
+  }, 1000);
+}</string>
+	<key>name</key>
+	<string>componentDidMount</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>cdm</string>
+	<key>uuid</key>
+	<string>147A9CE9-6F5D-48DF-9DE1-10EA3A32E8EF</string>
+</dict>
+</plist>

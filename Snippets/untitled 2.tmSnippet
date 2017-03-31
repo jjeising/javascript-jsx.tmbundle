@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>componentWillUpdate: function (nextProps, nextState) {
+  ${1|//is executed immediately
+  //contingent on `shouldComponentUpdate`
+  //
+  //note: `this.setState` won't work here
+  //       ...but you always do other
+  //       stuff like do meaningful stuff
+  //       with `this.state` and `this.props`|}
+}</string>
+	<key>name</key>
+	<string>componentWillUpdate</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>cwu</string>
+	<key>uuid</key>
+	<string>794A8112-E334-498C-BBB2-AEDB4BA6B904</string>
+</dict>
+</plist>
