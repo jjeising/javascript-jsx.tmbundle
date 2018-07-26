@@ -8,10 +8,10 @@ Textmate Bundle for JSX (React). Currently supports
 Installation
 ------------
 
-Clone the bundle to `Library/Application Support/Avian/Pristine Copy/Bundles/` (for Textmate 2):
+Clone the bundle to `Library/Application Support/Pristine Copy/Bundles/` (for Textmate 2):
 
 ```
-git clone https://github.com/jjeising/javascript-react.tmbundle.git ~/Library/Application\ Support/Avian/Pristine\ Copy/Bundles/javascript-react.tmbundle
+git clone https://github.com/jjeising/javascript-react.tmbundle.git ~/Library/Application\ Support/TextMate/Pristine\ Copy/Bundles/javascript-react.tmbundle
 ```
 
 Compile on save
